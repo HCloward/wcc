@@ -1,0 +1,31 @@
+#wrapper {
+    width:600px;
+    margin:auto; /* Centers the div on the page */
+    border:1px solid tan;
+    padding:25px;
+    outline-style: ridge;
+}
+body {
+    background-image: url('https://practice-pixels.s3.amazonaws.com/texture-paper.jpg');
+}
+h1 {
+    color: #91072f;
+    font-family: Arial;
+}
+h2 {
+    color: #bc0a3e;
+    font-family: Arial;
+}
+p {
+    line-height: 1.5rem;
+    font-family: Georgia;
+}
+ul {
+    font-family: Georgia;
+}
+li.primary {
+    font-weight: bold;
+}
+.quick_facts {
+    border: 1px solid #91072f;
+}
