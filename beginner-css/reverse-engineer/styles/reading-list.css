@@ -1,0 +1,87 @@
+body {
+    background-image: url(http://practice-pixels.s3.amazonaws.com/texture-blue.jpg);
+}
+#book-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    height: 75px;
+    padding-top: 2px;
+
+}
+.main {
+    background-color: white;
+    width:740px;
+    margin:auto; /* Centers the div on the page */
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.section {
+    background-color: #EEEEEE;
+    width:720px;
+    margin:auto; /* Centers the div on the page */
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #D42A1D;
+    line-height: 30%;
+}
+#subtitle {
+    text-align: center;
+    line-height: 40%;
+    font-size: 14.5pt;
+    font-family: Helvetica;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 14.5pt;
+    line-height: 15%;
+}
+h3 {
+    font-family: Helvetica;
+    font-size: 12pt;
+    line-height: 70%;
+    font-style: italic;
+}
+p {
+    font-family: Georgia;
+    line-height: 150%;
+}
+a.black:link, a.black:visited, a.black:hover, a.black:active {
+    color:black;
+}
+a.red:link {
+    color:#D42A1D;;
+    font-family: Helvetica;
+}
+a.red:visited {
+    color:#D42A1D;;
+}
+a.red:hover {
+    color:#185A96;;
+}
+a.red:active {
+    color:#D42A1D;;
+}
+footer {
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
